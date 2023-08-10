@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Timer';
+    src: url(fonts/timer.ttf);
+}
+
+@font-face {
+     font-family: "Rusty";
+    src: url(fonts/rust.otf);
+}
+
+
+body {
+  margin: 0px;
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+}
+
+.point-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    margin: 0 auto;
+    font-family: "Rusty";
+    color: white;
+}
+
+.team {
+    margin: 10px auto;
+    font-size: 40px;
+}
+
+.point-disp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    background-color: black;
+    color: #dC0902;
+    margin: 0 auto;
+    font-family: 'Timer';
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;   
+}
+
+.point-btn {
+    font-family: 'Timer';
+    border: 1px solid #9AABD8;
+    margin: 10px 4px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    
+}
+
+ #reset-btn {
+    font-family: 'Timer';
+    border: 1px solid #9AABD8;
+    margin: 10px 4px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 5px;
+    padding: 5px 8px;
+ }
+ 
+ .highlight {
+     text-shadow: 0px 0px 8px white;
+ }
+ 
+ .team-highlight {
+     color: white;
+ }
